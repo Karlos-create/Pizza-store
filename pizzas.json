@@ -1,0 +1,59 @@
+{
+  "pizzas": [
+    {
+      "image": "https://images.pexels.com/photos/825661/pexels-photo-825661.jpeg?auto=compress&cs=tinysrgb&w=300",
+      "name": "Margherita",
+      "price": 8.99,
+      "size": "Medium",
+      "category": "vegetarian",
+      "description": "Classic pizza with tomato sauce, mozzarella cheese, and fresh basil.",
+      "id": "1"
+    },
+    {
+      "image": "https://images.pexels.com/photos/905847/pexels-photo-905847.jpeg?auto=compress&cs=tinysrgb&w=300",
+      "name": "Pepperoni",
+      "price": 10.99,
+      "size": "small",
+      "category": "Non-Vegetarian",
+      "description": "Popular pizza topped with pepperoni slices, mozzarella cheese, and tomato sauce.",
+      "id": "2"
+    },
+    {
+      "id": "5",
+      "name": "Hawaiian",
+      "description": "Tropical pizza topped with ham, pineapple, mozzarella cheese, and tomato sauce.",
+      "price": 9.99,
+      "size": "Medium",
+      "category": "Non-Vegetarian",
+      "image": "https://images.pexels.com/photos/2619970/pexels-photo-2619970.jpeg?auto=compress&cs=tinysrgb&w=300"
+    },
+    {
+      "id": "6",
+      "name": "Four Cheese",
+      "description": "A rich blend of mozzarella, cheddar, parmesan, and blue cheese.",
+      "price": 11.99,
+      "size": "Medium",
+      "category": "Vegetarian",
+      "image": "https://images.pexels.com/photos/1049620/pexels-photo-1049620.jpeg?auto=compress&cs=tinysrgb&w=300"
+    },
+    {
+      "id": "7",
+      "name": "Meat Lovers",
+      "description": "Packed with a variety of meats including sausage, pepperoni, ham, and bacon.",
+      "price": 13.99,
+      "size": "Large",
+      "category": "Non-Vegetarian",
+      "image": "https://images.pexels.com/photos/1166120/pexels-photo-1166120.jpeg?auto=compress&cs=tinysrgb&w=300"
+    },
+    {
+      "id": "e8ad",
+      "image": "https://images.pexels.com/photos/2619970/pexels-photo-2619970.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "name": "Mexicano-agentero",
+      "price": 8.99,
+      "size": 1,
+      "toppings": "",
+      "category": "non-vegeterian",
+      "description": "Best taste In mexico, by having best ingreideints"
+    }
+  ]
+}

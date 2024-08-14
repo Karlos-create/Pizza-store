@@ -1,0 +1,108 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    color: wheat;
+}
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+    padding: 20px;
+}
+.header, .content, .team, .ingredients, .community, .testimonials, .contact {
+    margin-bottom: 40px;
+}
+.header h1 {
+    color: #333;
+}
+.header p {
+    font-size: 1.2em;
+    color: #333;
+    font-weight: bolder;
+    font-size: 50px;
+}
+.header p{
+
+        font-size: 3rem; /* Adjust the size as needed */
+        font-weight: 1000;
+        background: #333;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        color: transparent;
+        text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.3); /* Subtle shadow for depth */
+        margin-bottom: 1rem;
+        transition: color 0.3s ease, transform 0.3s ease;
+        
+}
+.team img, .ingredients img, .community img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-right: 20px;
+   
+}
+.contact p {
+    font-size: 1.1em;
+}
+.social-links a {
+    justify-content: center;
+    display: flex;
+    font-weight: bolder;
+    margin-right: 40px;
+    color: #000000;
+    text-decoration: none;
+}
+
+.social-links a:hover {
+    text-decoration: underline;
+
+}
+
+    
+.heading {
+    font-size: 4rem; 
+    font-weight: 900; 
+    color: #ffffff;
+    text-transform: uppercase; /* Uppercase for emphasis */
+    letter-spacing: 4px; /* Wider letter spacing for a modern look */
+    line-height: 1.1; /* Tight line height for compactness */
+    text-shadow: 
+        3px 3px 5px rgba(0, 0, 0, 0.5), /* Adds depth with a stronger shadow */
+        -1px -1px 3px rgba(255, 255, 255, 0.3); /* Additional highlight shadow for contrast */
+    margin: 0;
+    padding: 0;
+    border-bottom: 6px solid #000000; /* Bold bottom border for accent */
+    background: linear-gradient(135deg, #ff6347, #ffeb3b); /* Vibrant gradient background */
+    -webkit-background-clip: text; /* Applies gradient to text only */
+    -webkit-text-fill-color: transparent; /* Makes text color transparent to show gradient */
+   
+    transition: all 0.3s ease-in-out; /* Smooth transition effect */
+}
+
+.heading:hover {
+    transform: scale(1.05); /* Slight zoom effect on hover */
+    color: #ff6347; /* Change text color on hover */
+}
+.heading{
+    font-size: 3rem; /* Adjust the size as needed */
+    font-weight: bold;
+    background: wheat;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent;
+    text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.3); /* Subtle shadow for depth */
+    margin-bottom: 1rem;
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.hea{
+    font-weight:800 ;
+    color: #000000;
+}
+.center{
+    text-align: center;
+}

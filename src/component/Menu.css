@@ -1,0 +1,21 @@
+.smaller-card {
+    max-width: 18rem; /* Adjust the max width as needed */
+    margin: auto; /* Center the card horizontally */
+}
+
+.smaller-card img {
+    height: 200px; /* Adjust the height of the image */
+    object-fit: cover; /* Ensure the image covers the specified height */
+}
+
+.card-body {
+    padding: 0.75rem; /* Reduce the padding inside the card body */
+}
+
+.card-title {
+    font-size: 1.25rem; /* Adjust the font size of the card title */
+}
+
+.card-text {
+    font-size: 0.9rem; /* Adjust the font size of the card text */
+}

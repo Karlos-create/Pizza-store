@@ -1,0 +1,65 @@
+ 
+.conto{
+    justify-content: center;
+    display: flex;
+    margin-left: 300px;
+    margin-right: 300px;
+
+}
+.card{
+    background-color: wheat;
+    margin-top: 30px;
+    margin: 10px;
+}
+.btn{
+    color: white;
+    border: 1px;
+    background-color: rgb(177, 11, 11);
+}
+.heading {
+    font-size: 4rem; 
+    font-weight: 900; 
+    color: #ffffff;
+    text-transform: uppercase; /* Uppercase for emphasis */
+    letter-spacing: 4px; /* Wider letter spacing for a modern look */
+    line-height: 1.1; /* Tight line height for compactness */
+    text-shadow: 
+        3px 3px 5px rgba(0, 0, 0, 0.5), /* Adds depth with a stronger shadow */
+        -1px -1px 3px rgba(255, 255, 255, 0.3); /* Additional highlight shadow for contrast */
+    margin: 0;
+    padding: 0;
+    border-bottom: 6px solid #000000; /* Bold bottom border for accent */
+    background: linear-gradient(135deg, #ff6347, #ffeb3b); /* Vibrant gradient background */
+    -webkit-background-clip: text; /* Applies gradient to text only */
+    -webkit-text-fill-color: transparent; /* Makes text color transparent to show gradient */
+   
+    transition: all 0.3s ease-in-out; /* Smooth transition effect */
+}
+h5{
+    font-weight: bold;
+    width: 150px;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 50%;
+    background-color: #000000;
+    
+}
+.card-title{
+    color: wheat;
+}
+.heading:hover {
+    transform: scale(1.05); /* Slight zoom effect on hover */
+    color: #ff6347; /* Change text color on hover */
+}
+.heading{
+    font-size: 3rem; /* Adjust the size as needed */
+    font-weight: bold;
+    background: wheat;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent;
+    text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.3); /* Subtle shadow for depth */
+    margin-bottom: 1rem;
+    transition: color 0.3s ease, transform 0.3s ease;
+}
